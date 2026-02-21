@@ -1,7 +1,7 @@
 # zundabot
 
 🚀 **プロジェクト紹介ページ（構成図・詳細解説）**  
-https://fuku-hiro112.github.io/zundabot/
+https://fuku-hiro112.github.io/zunda_ai_bot/
 
 Discordのボイスチャンネルで、指定したユーザーの発言をリアルタイムに**ずんだもんの声**で読み上げるBotなのだ。
 
