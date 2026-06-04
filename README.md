@@ -9,6 +9,10 @@ Discordのボイスチャンネルで、指定したユーザーの発言をリ�
 - **AI返答**: [Claude](https://www.anthropic.com/) (claude-sonnet-4-6)
 - **音声合成**: [VOICEVOX](https://voicevox.hiroshiba.jp/)
 
+## 概要
+
+Discord のボイスチャンネルで、指定したユーザーの発言をリアルタイムに「ずんだもん」の声で読み上げる Bot です。Whisper (音声認識) → Claude (文脈を読んだ返答生成) → VOICEVOX (音声合成) を常駐プロセスで連携させています。単に文字起こしを読み上げるのではなく、Claude が会話の流れを見て「今は返答すべきか」を自分で判断する点が工夫したところです。Node.js と Python プロセスのリアルタイム連携、低遅延な音声処理が技術的な力点です。
+
 ## 仕組み
 
 ```
